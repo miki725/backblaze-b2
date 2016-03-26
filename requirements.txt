@@ -1,3 +1,4 @@
 cached-property
+enum34
 requests
 six
