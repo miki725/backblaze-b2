@@ -1,0 +1,24 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Basic ZWUxMWZiZTcxMGIyOjAwMTBmODlmNDM0ZDJmNzkzZTgzNmJiNDk0YTZmNjk0YzEwYzUxMDU0NA==]
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.9.1]
+    method: GET
+    uri: https://api.backblaze.com/b2api/v1/b2_authorize_account
+  response:
+    body: {string: "{\n  \"accountId\": \"ee11fbe710b2\",\n  \"apiUrl\": \"https://api001.backblaze.com\",\n
+        \ \"authorizationToken\": \"3_20160326225123_62ee482598f65ccc9b9755fb_9d88fe68fcfad798ec8b62f891926a77cc48bc1e_001_acct\",\n
+        \ \"downloadUrl\": \"https://f001.backblaze.com\",\n  \"minimumPartSize\":
+        100000000\n}\n"}
+    headers:
+      Cache-Control: ['max-age=0, no-cache, no-store']
+      Content-Length: ['276']
+      Content-Type: [application/json;charset=UTF-8]
+      Date: ['Sat, 26 Mar 2016 22:51:22 GMT']
+      Server: [Apache-Coyote/1.1]
+    status: {code: 200, message: OK}
+version: 1

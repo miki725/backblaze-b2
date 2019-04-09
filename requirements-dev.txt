@@ -1,0 +1,5 @@
+-rrequirements.txt
+mock
+pytest
+pytest-coverage
+vcrpy
